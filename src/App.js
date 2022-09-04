@@ -1,13 +1,8 @@
 import React, { Component } from "react";
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-  }
-  state = {};
+export default class App extends Component {
+  state = { exercises: [], title: "" };
   render() {
-    return <>Hello</>;
+    return <h1>Exercises</h1>;
   }
 }
-
-export default App;
